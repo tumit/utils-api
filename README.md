@@ -43,3 +43,15 @@ keep-alive: timeout=5
 
 Hello World!
 ```
+
+### cli
+```sh
+nest g controller format
+```
+
+### expect
+```sh
+# CREATE src/format/format.controller.spec.ts (492 bytes)
+# CREATE src/format/format.controller.ts (101 bytes)
+# UPDATE src/app.module.ts (330 bytes)
+```

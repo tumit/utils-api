@@ -11,7 +11,7 @@ export function mobileFormat(mobileNo: string): string {
 }
 
 // 089-123-4568
-console.log(mobileFormat('0891234568'))
+// console.log(mobileFormat('0891234568'))
 // console.log(mobileFormat(true))
 
 

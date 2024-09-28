@@ -5,8 +5,6 @@ import { FormatController } from './format/format.controller';
 import { MobileModule } from './mobile/mobile.module';
 
 @Module({
-  imports: [MobileModule],
-  controllers: [AppController, FormatController],
-  providers: [AppService],
+  imports: [MobileModule]
 })
 export class AppModule {}

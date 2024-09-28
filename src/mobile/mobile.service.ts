@@ -7,7 +7,11 @@ export class MobileService {
   constructor(private formatService: FormatService) { }
 
   blockedMobileNos(mobileNos: string[]): string {
-      return mobileNos.map(mobileNo => this.formatService.mobileFormat(mobileNo)).join(', ')
+      return mobileNos
+        .map(mobileNo => 
+            this.formatService.mobileFormat(mobileNo)
+        )
+        .join(', ')
   }  
 
 }

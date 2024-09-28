@@ -1,2 +1,5 @@
 ### 
 GET http://localhost:3000/mobile/name-card/John/0891234567
+
+### 
+GET http://localhost:3000/mobile/blocked-mobile-nos/0891234567,0898765432
